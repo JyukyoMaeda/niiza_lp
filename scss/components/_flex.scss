@@ -13,6 +13,14 @@
     &.-cr{ flex-direction: column-reverse !important;}
     &.-cr_s{ @include max(768){flex-direction: column-reverse !important;}}
 
+
+    // ボタン
+    &.-btn{
+        li{
+            border: 1px solid $site-color02;
+            text-align: center;
+        }
+    }
     // コンテンツ_タイトル
     &.-title-Icon{
         flex-wrap: nowrap;

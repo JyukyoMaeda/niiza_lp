@@ -394,6 +394,41 @@
 					width: 40%;
 				}
 			}
+			// コンテンツ > ボタン
+			&.-shopBtn01{// 物件詳細
+				top: 88.5%;
+				left: 49%;
+				transform: translate(-50%, -50%);
+				width: 25%;
+				@include min(768){
+					top: 78%;
+					left: 69%;
+					width: 8%;
+				}
+				&.-shop02{
+					top: 81.5%;
+					left: 84%;
+					@include min(768){
+						top: 75.5%;
+					}
+				}
+			}
+			&.-shopBtn02{// 資料請求・見学予約
+				top: 94%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: 80%;
+				@include min(768){
+					top: 90%;
+					width: 30%;
+				}
+				&.-shop02{
+					top: 96%;
+					@include min(768){
+						top: 87%;
+					}
+				}
+			}
 		}
 	}
 }

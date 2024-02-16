@@ -4053,6 +4053,48 @@ button.swiper-pagination-bullet {
     width: 40%;
   }
 }
+.c-contents.-imgBg .c-contentsBox.-shopBtn01 {
+  top: 88.5%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  width: 25%;
+}
+@media (width >= 768px) {
+  .c-contents.-imgBg .c-contentsBox.-shopBtn01 {
+    top: 78%;
+    left: 69%;
+    width: 8%;
+  }
+}
+.c-contents.-imgBg .c-contentsBox.-shopBtn01.-shop02 {
+  top: 81.5%;
+  left: 84%;
+}
+@media (width >= 768px) {
+  .c-contents.-imgBg .c-contentsBox.-shopBtn01.-shop02 {
+    top: 75.5%;
+  }
+}
+.c-contents.-imgBg .c-contentsBox.-shopBtn02 {
+  top: 94%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+@media (width >= 768px) {
+  .c-contents.-imgBg .c-contentsBox.-shopBtn02 {
+    top: 90%;
+    width: 30%;
+  }
+}
+.c-contents.-imgBg .c-contentsBox.-shopBtn02.-shop02 {
+  top: 96%;
+}
+@media (width >= 768px) {
+  .c-contents.-imgBg .c-contentsBox.-shopBtn02.-shop02 {
+    top: 87%;
+  }
+}
 
 .c-contents_title {
   position: relative;
@@ -4363,6 +4405,10 @@ button.swiper-pagination-bullet {
   .c-flex.-cr_s {
     flex-direction: column-reverse !important;
   }
+}
+.c-flex.-btn li {
+  border: 1px solid #f5b300;
+  text-align: center;
 }
 .c-flex.-title-Icon {
   flex-wrap: nowrap;
@@ -4932,84 +4978,33 @@ a {
   transition-duration: 0.2s;
 }
 .c-link.-text {
-  width: auto;
-  transition: 1s;
-}
-.c-link.-text .logoBox {
   position: relative;
   transition: 1s;
-}
-.c-link.-text .logoBox::after {
-  content: "";
-  background-image: url(../images/logo/SVG/logo_text.svg);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 100%;
-  height: 100%;
-  transition: 1s;
-  filter: drop-shadow(0px 0px 1px black);
-  opacity: 0;
-}
-.c-link.-text .textBox {
-  width: auto;
-  margin: auto;
   overflow: hidden;
 }
-@media (width >= 768px) {
-  .c-link.-text .textBox {
-    width: 80%;
-  }
-}
-@media (width >= 1600px) {
-  .c-link.-text .textBox {
-    width: 50%;
-  }
-}
-.c-link.-text .textBox.-p01 {
-  width: 100%;
-}
-@media (width >= 768px) {
-  .c-link.-text .textBox.-p01 {
-    width: 80%;
-  }
-}
-@media (width >= 1600px) {
-  .c-link.-text .textBox.-p01 {
-    width: 100%;
-  }
-}
-.c-link.-text .textBox p {
-  position: relative;
-  transition: 1s;
-}
-.c-link.-text .textBox p::after {
+.c-link.-text::after {
   content: "";
   position: absolute;
   bottom: -2%;
   left: -50%;
   transform: translateX(-50%);
   width: 100%;
-  height: 2px;
+  height: 1px;
   background: #ffffff;
-  transition: 2s all;
+  transition: 1s all;
 }
-.c-link.-text:hover .logoBox {
+.c-link.-text:hover {
   transform: scale(1.05);
 }
-.c-link.-text:hover .logoBox::after {
-  top: 55%;
-  left: 55%;
-  opacity: 0.1;
-  filter: drop-shadow(2px 2px 3px black);
-}
-.c-link.-text:hover .textBox p {
-  transform: scale(1.05);
-}
-.c-link.-text:hover .textBox p::after {
+.c-link.-text:hover::after {
   left: 50%;
-  background: #636363;
+  background: #3b3b3b;
+}
+.c-link.-c-color {
+  display: block;
+  width: 100%;
+  padding: 2% 2%;
 }
 @media (width >= 768px) {
   .c-link.-c-color {
@@ -5018,8 +5013,12 @@ a {
   .c-link.-c-color span {
     transition: 1s all;
   }
+  .c-link.-c-color:hover {
+    background: #f5b300;
+    color: #ffffff;
+  }
   .c-link.-c-color:hover span {
-    color: #96bbc7;
+    color: #ffffff;
   }
 }
 
