@@ -397,19 +397,40 @@
 			// コンテンツ > ボタン
 			&.-shopBtn01{// 物件詳細
 				top: 88.5%;
-				left: 49%;
+				left: 47%;
 				transform: translate(-50%, -50%);
 				width: 25%;
 				@include min(768){
 					top: 78%;
 					left: 69%;
-					width: 8%;
+					width: 12%;
+					max-width: 110px;
+				}
+				@include min(1300){
+					
 				}
 				&.-shop02{
-					top: 81.5%;
+					top: 81.1%;
 					left: 84%;
 					@include min(768){
 						top: 75.5%;
+					}
+				}
+				&.-shop03{
+					top: 85.5%;
+					left: 84%;
+					@include min(768){
+						top: 75.5%;
+					}
+				}
+				&.-shop05_06{
+					top: 87.5%;
+					left: 80%;
+					@include min(768){
+						top: 87.5%;
+						left: 83%;
+						width: 30%;
+						max-width: 120px;
 					}
 				}
 			}
@@ -426,6 +447,23 @@
 					top: 96%;
 					@include min(768){
 						top: 87%;
+					}
+				}
+				&.-shop03{
+					top: 96.5%;
+					@include min(768){
+						top: 87%;
+					}
+				}
+
+				&.-shop05_06{
+					top: 96.5%;
+					@include min(768){
+						top: 95%;
+						width: 60%;
+					}
+					@include min(1300){
+						width: 50%;
 					}
 				}
 			}

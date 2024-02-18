@@ -67,7 +67,7 @@
 	&.-c-color{
 		display: block;
 		width: 100%;
-		padding: 2% 2%;
+		padding: 2% 2% 3%;
 		@include min(768){
 			transition: 1s all;
 			span{transition: 1s all;}
