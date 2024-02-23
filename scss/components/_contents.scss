@@ -384,10 +384,10 @@
 			}
 			// ファーストビュー > 写真
 			&.-f-pic{
-				top: 72%;
+				top: 70%;
 				left: 50%;
 				transform: translate(-50%, -50%);
-				width: 70%;
+				width: 63%;
 				@include min(768){
 					top: 50%;
 					left: 65%;

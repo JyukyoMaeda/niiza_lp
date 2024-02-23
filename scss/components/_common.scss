@@ -46,6 +46,15 @@
     }
 }
 
+.logoArea{
+    width: 60%;
+    max-width: 200px;
+    margin: auto;
+    @include min(768){
+        width: 37%;
+    }
+}
+
 .bannerArea{
     width: 60%;
     max-width: 400px;

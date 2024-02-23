@@ -51,7 +51,10 @@
         }
     </script>
 </head>
-<body class="p-top js_humburgerClose">
+<body id="top" class="p-top js_humburgerClose">
+
+    <!-- 固定アイテム / TOP -->
+    <!-- <a href="#top" class="c-btn-top -center a-fadeUp -sp25">TOPへ</a> -->
 
     <!-- ハンバーガーメニュー -->
     <!-- <nav class="c-hnav a-scroll-on">
@@ -91,7 +94,7 @@
         <div class="c-contents -imgBg">
             <div class="imgBox">
                 <img class="sp" src="images/f-view/f-view_s.jpg" alt="仲介手数料無料の新座物件特集">
-                <img class="pc" src="images/f-view/f-view.jpg"   alt="仲介手数料無料の新座物件特集">
+                <img class="tb-pc" src="images/f-view/f-view.jpg"   alt="仲介手数料無料の新座物件特集">
             </div>
             <div class="c-contentsBox -f-pic">
                 <div class="swiper swiper-Fview">
@@ -149,7 +152,7 @@
                 </ul>
             </div>
         </div>
-        <!-- SHOP_03 / 712117780 -->
+        <!-- SHOP_03 / 712817836 -->
         <div class="c-contents -imgBg mgb10 mgb10s">
             <div class="imgBox">
                 <img class="sp"    src="images/bg/shop03_bg_s.jpg" alt="新座市野寺4丁目 | 建築条件付土地／新築住宅">
@@ -161,10 +164,10 @@
             <div class="c-contentsBox -shopBtn02 -shop03">
                 <ul class="c-flex -col2_2 -btn">
                     <li>
-                        <a class="s-L -color02 c-link -c-color" href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712117780"><span class="-color02 pdr5 pdr2s">▶</span>資料請求</a>
+                        <a class="s-L -color02 c-link -c-color" href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712817836"><span class="-color02 pdr5 pdr2s">▶</span>資料請求</a>
                     </li>
                     <li>
-                        <a class="s-L -color02 c-link -c-color" href="https://www.jyu-g.co.jp/contents/tour?checkid=712117780"><span class="-color02 pdr5 pdr2s">▶</span>見学予約</a>
+                        <a class="s-L -color02 c-link -c-color" href="https://www.jyu-g.co.jp/contents/tour?checkid=712817836"><span class="-color02 pdr5 pdr2s">▶</span>見学予約</a>
                     </li>
                 </ul>
             </div>
@@ -222,11 +225,23 @@
     <footer id="footer" class="c-footer mgt-2 mgb10s">
 
         <!-- 電話でのお問い合わせ -->
-        <p class="s-L -center mgb5 mgb5s">お電話でのお問い合わせはこちら</p>
+        <p class="s-L -center mgb1 mgb5s">お電話でのお問い合わせはこちら</p>
+        <div class="tb-pc c-contents logoArea mgb5 mgb5s">
+            <img src="images/SVG/jyukyo-logo.svg" alt="住協">
+        </div>
         <ul class="c-flex -col1_3 w1100 w90s">
-            <li class="mgb10s"><a class="c-link -img" href="tel:0120-07-6566"><img src="images/item/shop_oizumi.jpg" alt="住協 | 大泉支店"></a></li>
-            <li class="mgb10s"><a class="c-link -img" href="tel:0120-569-888"><img src="images/item/shop_higashikurume.jpg" alt="住協 | 東久留米支店"></a></li>
-            <li><a class="c-link -img" href="tel:0120-64-1200"><img src="images/item/shop_asakadai.jpg" alt="住協 | 朝霞台支店"></a></li>
+            <li class="mgb10s"><a class="c-link -img" href="tel:0120-07-6566">
+                <img class="sp" src="images/item/shop_oizumi_s.jpg" alt="住協 | 大泉支店">
+                <img class="tb-pc" src="images/item/shop_oizumi_pc.jpg" alt="住協 | 大泉支店">
+            </a></li>
+            <li class="mgb10s"><a class="c-link -img" href="tel:0120-569-888">
+                <img class="sp" src="images/item/shop_higashikurume_s.jpg" alt="住協 | 東久留米支店">
+                <img class="tb-pc" src="images/item/shop_higashikurume_pc.jpg" alt="住協 | 東久留米支店">
+            </a></li>
+            <li><a class="c-link -img" href="tel:0120-64-1200">
+                <img class="sp" src="images/item/shop_asakadai_s.jpg" alt="住協 | 朝霞台支店">
+                <img class="tb-pc" src="images/item/shop_asakadai_pc.jpg" alt="住協 | 朝霞台支店">
+            </a></li>
         </ul>
     </footer>
     <!-- //footer -->
@@ -243,7 +258,10 @@
     <script>
         // トップページ > fristView
         const FviewSwiper = new Swiper(".swiper-Fview", {
+
             effect: "cards",
+            autoplay: true,
+            speed: 1500,
             grabCursor: true,
             mousewheelControl: true,
             pagination: {

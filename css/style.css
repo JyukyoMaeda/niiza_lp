@@ -2658,6 +2658,17 @@ button.swiper-pagination-bullet {
   }
 }
 
+.logoArea {
+  width: 60%;
+  max-width: 200px;
+  margin: auto;
+}
+@media (width >= 768px) {
+  .logoArea {
+    width: 37%;
+  }
+}
+
 .bannerArea {
   width: 60%;
   max-width: 400px;
@@ -4048,10 +4059,10 @@ button.swiper-pagination-bullet {
   }
 }
 .c-contents.-imgBg .c-contentsBox.-f-pic {
-  top: 72%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 70%;
+  width: 63%;
 }
 @media (width >= 768px) {
   .c-contents.-imgBg .c-contentsBox.-f-pic {
@@ -5290,6 +5301,9 @@ a {
 .swiper .swiper-button-next::after {
   color: white !important;
   filter: drop-shadow(1px 1px 3px black);
+}
+.swiper .swiper-pagination.-type01 {
+  top: 101%;
 }
 .swiper .swiper-pagination.-type01 .swiper-pagination-bullet {
   box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.692);
