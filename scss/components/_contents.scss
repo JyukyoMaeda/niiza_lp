@@ -413,7 +413,8 @@
 					top: 81.1%;
 					left: 84%;
 					@include min(768){
-						top: 75.5%;
+						top: 73.5%;
+						left: 85%;
 					}
 				}
 				&.-shop03{
@@ -421,6 +422,15 @@
 					left: 84%;
 					@include min(768){
 						top: 75.5%;
+						left: 83%;
+					}
+				}
+				&.-shop04{
+					top: 89.7%;
+					left: 67%;
+					@include min(768){
+						top: 74%;
+						left: 84.5%;
 					}
 				}
 				&.-shop05_06{
@@ -428,7 +438,8 @@
 					left: 80%;
 					@include min(768){
 						top: 87.5%;
-						left: 83%;
+						left: 86%;
+						// left: 83%;
 						width: 30%;
 						max-width: 120px;
 					}

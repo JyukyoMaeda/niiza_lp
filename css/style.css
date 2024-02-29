@@ -2606,7 +2606,7 @@ button.swiper-pagination-bullet {
 }
 @media (width >= 768px) {
   .w1100 {
-    width: 100%;
+    width: 95%;
     margin: auto;
   }
 }
@@ -4091,7 +4091,8 @@ button.swiper-pagination-bullet {
 }
 @media (width >= 768px) {
   .c-contents.-imgBg .c-contentsBox.-shopBtn01.-shop02 {
-    top: 75.5%;
+    top: 73.5%;
+    left: 85%;
   }
 }
 .c-contents.-imgBg .c-contentsBox.-shopBtn01.-shop03 {
@@ -4101,6 +4102,17 @@ button.swiper-pagination-bullet {
 @media (width >= 768px) {
   .c-contents.-imgBg .c-contentsBox.-shopBtn01.-shop03 {
     top: 75.5%;
+    left: 83%;
+  }
+}
+.c-contents.-imgBg .c-contentsBox.-shopBtn01.-shop04 {
+  top: 89.7%;
+  left: 67%;
+}
+@media (width >= 768px) {
+  .c-contents.-imgBg .c-contentsBox.-shopBtn01.-shop04 {
+    top: 74%;
+    left: 84.5%;
   }
 }
 .c-contents.-imgBg .c-contentsBox.-shopBtn01.-shop05_06 {
@@ -4110,7 +4122,7 @@ button.swiper-pagination-bullet {
 @media (width >= 768px) {
   .c-contents.-imgBg .c-contentsBox.-shopBtn01.-shop05_06 {
     top: 87.5%;
-    left: 83%;
+    left: 86%;
     width: 30%;
     max-width: 120px;
   }
