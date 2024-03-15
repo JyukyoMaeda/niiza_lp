@@ -9,15 +9,30 @@ $f-02: acumin-pro, sans-serif;
 // font-weight
 $f-n: normal;
 $f-b: bold;
-
+    // SOLD OUT時に使用する
+    .-grayOut{
+        pointer-events: none;
+        opacity: .2;
+        li{border: 1px solid $main-color--Dgray !important;}
+        a{
+            color: $main-color--w !important;
+            background: $main-color--Dgray !important;
+            pointer-events: none;
+            &::before,
+            &::after{
+                color: $main-color--w !important;
+                pointer-events: none;
+            }
+        }
+    }
 // 基本テキスト
 h1,h2,h3,h4,h5,h6,p,a,span,label,button{
 	color: $main-color--b;
 	// font-family: $f-mincho;
     font-family: $f-gothic;
 	font-weight: $f-n;
-    font-style: normal;
-    text-wrap: balance;
+    // font-style: normal;
+    // text-wrap: balance;
     word-break: auto-phrase;
 	line-height: 1.3;
 
