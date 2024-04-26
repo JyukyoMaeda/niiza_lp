@@ -4087,15 +4087,15 @@ button.swiper-pagination-bullet {
   }
 }
 .c-contents.-imgBg .c-contentsBox.-shopBtn01 {
-  top: 88.5%;
-  left: 47%;
+  top: 58.5%;
+  left: 72%;
   transform: translate(-50%, -50%);
   width: 25%;
 }
 @media (width >= 768px) {
   .c-contents.-imgBg .c-contentsBox.-shopBtn01 {
-    top: 78%;
-    left: 69%;
+    top: 84%;
+    left: 77%;
     width: 12%;
     max-width: 110px;
   }

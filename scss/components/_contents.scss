@@ -396,13 +396,17 @@
 			}
 			// コンテンツ > ボタン
 			&.-shopBtn01{// 物件詳細
-				top: 88.5%;
-				left: 47%;
+				top: 58.5%;
+				// top: 88.5%;
+				left: 72%;
+				// left: 47%;
 				transform: translate(-50%, -50%);
 				width: 25%;
 				@include min(768){
-					top: 78%;
-					left: 69%;
+					top: 84%;
+					// top: 78%;
+					left: 77%;
+					// left: 69%;
 					width: 12%;
 					max-width: 110px;
 				}
