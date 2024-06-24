@@ -417,8 +417,10 @@
 					top: 81.1%;
 					left: 84%;
 					@include min(768){
-						top: 73.5%;
-						left: 85%;
+						// top: 73.5%;
+						// left: 85%;
+						top: 78.5%;
+						left: 83%;
 					}
 				}
 				&.-shop03{
